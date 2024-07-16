@@ -2,7 +2,6 @@ from keras.models import  load_model
 
 from tensorflow.keras.preprocessing import image
 import pandas as pd
-import cv2
 import numpy as np
 
 # Creating a function to check any image
