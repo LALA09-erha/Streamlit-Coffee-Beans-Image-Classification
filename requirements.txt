@@ -9,5 +9,5 @@ st-pages
 matplotlib
 seaborn
 tensorflow
-cv2
+opencv-python
 keras

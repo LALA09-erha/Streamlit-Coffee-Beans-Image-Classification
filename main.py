@@ -5,7 +5,7 @@ import pandas as pd
 
 # judul website
 st.set_page_config(
-    page_title="Klasifikasi Paru-Paru",
+    page_title="Klasifikasi Kopi",
     page_icon="🧊",
 )
 st.title('Website Klasifikasi Kopi')
@@ -15,6 +15,7 @@ show_pages(
     [
         Page("main.py", "Home", "🏠"),
         Page("pages/uji.py", "Uji Coba", "♻"),
+        Page("pages/history.py", "Riwayat Klasifikasi", "🔂"),
     ]
 )
 
