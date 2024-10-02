@@ -9,9 +9,22 @@ st.set_page_config(
 )
 st.title('Website Klasifikasi Kopi')
 
-# change name of menu in sidebar just in this page
-st.sidebar.title('Home Page 🏠')
-
+# ambil [data-testid="stSidebarNavLink"] yang pertama dari sidebar
+st.markdown("""
+<style>
+            
+[data-testid="stSidebarNavLink"] {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    text-transform: capitalize;
+}
+</style>
+""", unsafe_allow_html=True)
+# change name of menu like name of this file in sidebar just in this page
 
 
 #penjelasan Kopi 

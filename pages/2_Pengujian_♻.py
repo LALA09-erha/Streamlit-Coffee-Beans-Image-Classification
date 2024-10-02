@@ -11,6 +11,20 @@ st.set_page_config(
 )
 st.title('Uji Data Menggunakan Model Terbaik')
 
+st.markdown("""
+<style>
+            
+[data-testid="stSidebarNavLink"] {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    text-transform: capitalize;
+}
+</style>
+""", unsafe_allow_html=True)
 
 uploaded_files = st.file_uploader("Upload Image Coffe", type=['png', 'jpg', 'jpeg'])
 
