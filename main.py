@@ -1,6 +1,5 @@
 # inisialisasi library
 import streamlit as st
-from st_pages import Page, show_pages, add_page_title
 import pandas as pd
 
 # judul website
@@ -11,13 +10,13 @@ st.set_page_config(
 st.title('Website Klasifikasi Kopi')
 
 # menus 
-show_pages(
-    [
-        Page("main.py", "Home", "🏠"),
-        Page("pages/uji.py", "Uji Coba", "♻"),
-        Page("pages/history.py", "Riwayat Klasifikasi", "🔂"),
-    ]
-)
+# show_pages(
+#     [
+#         Page("main.py", "Home", "🏠"),
+#         Page("pages/uji.py", "Uji Coba", "♻"),
+#         Page("pages/history.py", "Riwayat Klasifikasi", "🔂"),
+#     ]
+# )
 
 #penjelasan paru-paru
 
