@@ -9,16 +9,12 @@ st.set_page_config(
 )
 st.title('Website Klasifikasi Kopi')
 
-# menus 
-# show_pages(
-#     [
-#         Page("main.py", "Home", "🏠"),
-#         Page("pages/uji.py", "Uji Coba", "♻"),
-#         Page("pages/history.py", "Riwayat Klasifikasi", "🔂"),
-#     ]
-# )
+# change name of menu in sidebar just in this page
+st.sidebar.title('Home Page 🏠')
 
-#penjelasan paru-paru
+
+
+#penjelasan Kopi 
 
 st.markdown('<div style="text-align: justify;"> <b>Coffee Bean:</b> Biji kopi adalah biji yang berasal dari tanaman kopi, yang termasuk dalam genus Coffea. Dua jenis biji kopi yang paling populer adalah Arabika (Coffea arabica) dan Robusta (Coffea canephora). Biji kopi melalui proses pemetikan, pengeringan, pemanggangan, hingga penggilingan sebelum menjadi bubuk kopi yang siap diseduh. Karakteristik biji kopi seperti rasa, aroma, keasaman, dan kekuatan dipengaruhi oleh berbagai faktor seperti varietas tanaman, lingkungan tumbuh, dan metode pengolahan. Biji kopi memiliki nilai komersial tinggi dan menjadi komoditas penting dalam perdagangan internasional.</div>', unsafe_allow_html=True)
 
